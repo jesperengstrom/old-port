@@ -44,4 +44,4 @@ switch (true){
 	document.write("Suveränt " + namn + ", du fick alla rätt och vann ett glas vatten!" );
 	break;
 	
-{
+}
