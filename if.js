@@ -7,7 +7,7 @@ var q1 = prompt("Vad heter Indonesiens huvudstad?")
 		score++
 	}
 
-var q2 = prompt("Vilket år började första världskriget?")
+var q2 = prompt("Vilket år började andra världskriget?")
 	if (q2 === "1939" || q2 === "nittonhundratrettionio" || q2 === "Nittonhundratrettionio") {
 		score++
 	}
