@@ -1,0 +1,27 @@
+{
+  "name": "jesperengstrom.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "start": "gulp",
+    "type": "git",
+    "url": "git+https://github.com/jesperengstrom/jesperengstrom.github.io.git"
+  },
+  "author": "Jesper Engström",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.7.6",
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.3.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/jesperengstrom/jesperengstrom.github.io/issues"
+  },
+  "homepage": "https://github.com/jesperengstrom/jesperengstrom.github.io#readme"
+}

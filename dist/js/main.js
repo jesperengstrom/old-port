@@ -39,7 +39,6 @@ var storage = (function() {
 
     return {
         getAll: function() {
-            console.log("works here");
             return printItems(repos);
         }
     };
