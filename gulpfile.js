@@ -14,6 +14,7 @@ const sass = require('gulp-sass');
 const postcss = require('gulp-postcss');
 const browserSync = require('browser-sync').create();
 const autoprefixer = require('autoprefixer');
+const babel = require('gulp-babel');
 
 
 /*
@@ -21,7 +22,7 @@ const autoprefixer = require('autoprefixer');
  * will server our files. We are creating a 'localhost' so the page
  * can be automatically updated when we save our work.
  */
-gulp.task('default', ['sass'], () => {
+gulp.task('default', ['sass', 'babel'], () => {
     //Init the server, serv the content from our root: ./
     browserSync.init({
         server: {
@@ -36,6 +37,7 @@ gulp.task('default', ['sass'], () => {
 
     //When we update our files in ./src/scss, the 'sass'-task will automatically run
     gulp.watch('./src/scss/**/*.scss', ['sass']);
+    gulp.watch('./src/js/*.js', ['babel']);
 });
 
 /*
@@ -60,4 +62,12 @@ gulp.task('sass', () => {
         //our css and the browser should update. So we pass pipe our changes to
         //browser-sync that updates the browser.
         .pipe(browserSync.stream());
+});
+
+gulp.task('babel', () => {
+    return gulp.src('./src/js/*.js')
+        .pipe(babel({
+            presets: ['es2015']
+        }))
+        .pipe(gulp.dest('dist/js'));
 });
