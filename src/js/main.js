@@ -1,6 +1,13 @@
 var storage = (function() {
 
     const repos = [{
+            name: "Front End blog",
+            date: "May 2017",
+            link: "https://phpgrupp.heliohost.org/",
+            ghlink: "https://github.com/phpgrupp/simple-cms",
+            description: "Me & two classmates built this blog and CMS from ground up using PHP and MySQL database. Includes registering, login and full admin panel functionality.",
+        },
+        {
             name: "Talartoppen",
             date: "April 2017",
             link: "https://jesperengstrom.github.io/Talartoppen/",
