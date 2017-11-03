@@ -5,19 +5,19 @@ var storage = function () {
     var repos = [{
         name: "Front End blog",
         date: "May 2017",
-        link: "https://phpgrupp.heliohost.org/",
+        link: "http://fontendblog.rf.gd/",
         ghlink: "https://github.com/phpgrupp/simple-cms",
         description: "Me & two classmates built this blog and CMS from ground up using PHP and MySQL database. Includes registering, login and full admin panel functionality."
     }, {
         name: "Talartoppen",
         date: "April 2017",
-        link: "https://jesperengstrom.github.io/Talartoppen/",
+        link: "http://jesperengstrom.se/Talartoppen/",
         ghlink: "https://github.com/jesperengstrom/Talartoppen",
         description: "An exersise in using async JS & Ajax. Ranks the politicians that debate the most in the Swedish parliament."
     }, {
         name: "JMDb",
         date: "March 2017",
-        link: "https://jesperengstrom.github.io/JMDb/",
+        link: "http://jesperengstrom.se/JMDb/",
         ghlink: "https://github.com/jesperengstrom/JMDb",
         description: "An exersise in using JavsScript design patterns, closures and scope by building a mock movie database."
     }, {
@@ -29,13 +29,13 @@ var storage = function () {
     }, {
         name: "Sänka skepp",
         date: "December 2016",
-        link: "https://jesperengstrom.github.io/battleship/",
+        link: "http://jesperengstrom.se/battleship/",
         ghlink: "https://github.com/jesperengstrom/battleship",
         description: "A thing I made on the side to practice JavaScript, My fist attempt at making a game."
     }, {
         name: "ToDo",
         date: "November 2016",
-        link: "https://jesperengstrom.github.io/todo/",
+        link: "http://jesperengstrom.se/todo/",
         ghlink: "https://github.com/jesperengstrom/todo",
         description: "A small school exercise in using arrays and the DOM."
     }];
